@@ -1,9 +1,9 @@
 name: my first workflow example
 on: push
 jobs:
-    say hello:
+    say_hello:
         name: abid hello
-        runs-on: ubuntun-22.04
+        runs-on: ubuntu-22.04
         steps:
             - name: Greeting the actions
               run: echo "heloo abid"
