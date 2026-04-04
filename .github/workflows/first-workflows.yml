@@ -1,0 +1,11 @@
+name: my first workflow example
+
+on: push
+
+jobs:
+  say_hello:
+    name: abid hello
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Greeting the actions
+        run: echo "hello abid"
