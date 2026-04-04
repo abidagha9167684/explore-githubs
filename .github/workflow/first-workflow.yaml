@@ -6,4 +6,4 @@ jobs:
                 runs-on: ubuntun-22.04
                 steps:
                      - name: Greeting the actions
-                       run: echo "heloo abid"
+                       run: echo "heloo aabid"
