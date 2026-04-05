@@ -1,0 +1,15 @@
+name: my secondflow example
+
+on: push
+
+jobs:
+  say_abid:
+    name: abid hello
+    runs-on: ubuntu-22.04
+    steps:
+      - name: checkoout 
+        uses: actions/checkout@v6
+      - name: list files
+        run: ls
+      - name: read html
+        run: cat index.html
